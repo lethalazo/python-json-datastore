@@ -15,7 +15,6 @@ class JSONDatastore():
     """
     Class for JSON Datastore.
     """
-    
     def __init__(self):
         self.store = []
     
