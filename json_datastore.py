@@ -97,7 +97,7 @@ class JSONDatastore():
 # -----------------------
 def matchDict(a, b):
     """
-    Helper function to see if dict a intersects dict b.
+    Helper function to see if dict "a" is a 'subset' of dict "b".
     
     Parameters
     ----------
