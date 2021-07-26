@@ -105,6 +105,12 @@ def matchDict(a, b):
         A dictionary.
     b : dict
         A dictionary.
+
+    Returns
+    -------
+    bool
+        True is dict "a" is a 'subset' of dict "b",
+        False otherwise.
     """
     matching = True
     for key in a:
