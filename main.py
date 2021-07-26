@@ -18,13 +18,15 @@ class Main():
     def __init__(self):
         self.datastore = _jsd.JSONDatastore()
         self.queries = []
-        
+    
+    # Public API
     def run(self):
         self.__readInput()
         result = self.__parseAndExecuteQueries()
         for doc in result:
             print(doc)
         
+    # Private API
     def __getCommand2Action(self):
         datastore = self.datastore
         return {
