@@ -2,8 +2,9 @@
 Author: Arsalan Azmi
 Description: JSON Datastore
 Package: python-json-datastore
+Python Version: 3.9
 Year: 2021
-Version: 3.9
+Version: 2
 """
 # ---- IMPORTS ----
 import json as _json
@@ -23,8 +24,8 @@ class JSONDatastore():
         """
         Get matching documents.
         
-        Parameter
-        ---------
+        Parameters
+        ----------
         docQuery : str
             A JSON example query document.
             
